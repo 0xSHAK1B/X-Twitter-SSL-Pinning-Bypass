@@ -1,31 +1,28 @@
-curl -X POST 'https://jf.x.com/onboarding/actions'
--H 'User-Agent: TwitterAndroid/12.5.0-release.0 (312050000-r-0) Z35/11 (Symphony;Z35;Symphony;Z35;0;;1;2015)'
--H 'Accept: application/json'
--H 'Accept-Encoding: gzip'
--H 'x-attest-signature: MTkzMTU2OTQtNzFjYy00YTYwLWFhOGYtOWVlMDlhY2QyNDk4LTgxMjIxMzg2NDg3MjUzOTE=.MEUCIGgd4iZdWXoatfYNmGK1WdF9IlmWZ3tbU9PBXEpbXA5RAiEAn2RYEmR9bY0Z6fAsOhB1wf2CGEhFEgf0ad9NyGEf9jQ='
--H 'timezone: '
--H 'x-twitter-client-adid: dcd87a29-d74b-4b76-ae07-2f1a1db11e61'
--H 'x-twitter-client-limit-ad-tracking: 0'
--H 'x-client-uuid: 19315694-71cc-4a60-aa8f-9ee09acd2498'
--H 'x-twitter-client: TwitterAndroid'
--H 'x-twitter-client-version: 12.5.0-release.0'
--H 'x-twitter-api-version: 5'
--H 'x-twitter-client-language: en-US'
--H 'x-twitter-client-deviceid: e610ffdde837355f'
--H 'x-twitter-active-user: yes'
--H 'x-attest-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcyI6ICJBTkRST0lEIiwKImFjY291bnRJZCI6ICI4MTIyMTM4NjQ4NzI1MzkxIiwKInZlcnNpb25OdW1iZXIiOiAiMTIuNS4wIiwKIm9zVmVyc2lvbk51bWJlciI6ICJaMzUvMTEuIiwKIm9zUGxhdGZvcm0iOiAiVHdpdHRlckFuZHJvaWQiLAoiZGV2aWNlTW9kZWwiOiAiWjM1IiwKImNsaWVudElkZW50aWZpZXIiOiAiMTkzMTU2OTQtNzFjYy00YTYwLWFhOGYtOWVlMDlhY2QyNDk4IiwKImtleUlkIjogIk1Ua3pNVFUyT1RRdE56RmpZeTAwWVRZd0xXRmhPR1l0T1dWbE1EbGhZMlF5TkRrNExUZ3hNakl4TXpnMk5EZzNNalV6T1RFPSIsCiJwdWJsaWNLZXkiOiAiTUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFaVFERkZSeXM2NnVPK25neFlFcWFxcDNCbUczampTcXhXVm50TVgxdGVLb012RG53QWtybkViczlZVDY5T3A4eFhZMHRCYzF4aitmOWpScWxDYnIyK1E9PSIsCiJleHBpcmVzQXQiOiAiMTc4MzM0MDIwMTc1NyJ9.udbfXcnZH8tE9AeQM-Tpgv025CGxpwhIP3aZJparDgs'
--H 'x-twitter-client-flavor: '
--H 'x-b3-traceid: 8adf0d8fd882ea3d'
--H 'os-security-patch-level: 2021-10-05'
--H 'x-guest-token: 2073924047466095094'
--H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAAFXzAwAAAAAAMHCxpeSDG1gLNLghVe8d74hl6k4%3DRUMF4xAQLsbeBhTSRrCiQpJtxoGWeyHrDb5te2jpGskWDFW82F'
--H 'x-jf-client-theme: darker'
--H 'x-jf-v: JP-5'
--H 'timezone: '
--H 'accept-language: en'
--H 'content-type: application/json; charset=UTF-8'
--H 'Cookie: __cf_bm=vFd2kKCtlEKoi6_boHsNiMsMHuG.BTKOuJTqvaVkjic-1783296999.466263-1.0.1.1-an7Go5BaSkvq530sgJFiiusManKsZdGIRFGci8uQs2a2s8vq7EXVS70AGTFbO88k38kMy31oXxbqmrUNCWSqKYQsyOvDsXu10Uy78c3PUPPsfhUFF_KcNaWqq5rs3Ba0'
--d '{"castle_token":"hY_PxuGw1d3J1OT98_Hhw-389-2y0NfI9s3v48vA8-O2stXOgTNSUMERjqGi2aWHnQJpua-K81JDsQDNiKFTnfHAK6bnwyLajcg1493-ReuvLP9N5oBT-4iTSolgrRfN0p5umYKurZKKnGqqj-w1qvrCMqrkrS_M6sknz9AhS_-6g27guIApq-TIOr3tg2tb6zZYCYnlA-G5n3X7pp12vO3BPq_7yHX-qIVo_7qdbv64nWvnqIUYr_vZN6uonnX_ppxq9ajsNar6wjKqqJxq9aj-IqP4xTSg8Y0B_b2E7UtDrI_Eyd4yr6fpM6_jzIfL7cN2m9tBWJS7mK_L7cN2m9tSVQmLtIXKjJtp_L2hXvi8nWv-nKli_7ueR8q5n27_q6x27b09CPKO4TLj4cI1i4r4UJfspDq85Ztv4_6VOqKNn3X_pp0qtwo5eK3nwHWp58I8ou2DOqDs3zSn7IMrr-vGOqntxDW9_Mw3ou3fx47pmWuq6ZVrr72UP_-_nTiv6ZRu_uvLavvrnGOtvJhvqryaOv2xz2n4sZViqrDPbfq4yDiqv5lurOmaaqzumD-tK6320D0eN3OCb5EbiHFfo-3CLC9iWFozuo33zoitW86IrVvOiK1bzoivvc6IrrjPEz-gzxMqS88TJK3PEzkyzxMbEc6yWYbOsnM-zrJYsM6zpF_Os4Zazx9gF88fbyzPH2U5zx9hqs8fQ3jOiFsNzogKj86IF-HOiGXMzokDaM6IR93OiA6czogaQM6IF-fOiTknzohKrc6IO6fOiDpazohoY86JAfjOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiJ9gzoo9Uc6JIUTOjArozxPf_c6J3VDOiXAnzowmls6IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitW86IrVvOiK1bzoitWzFz",
-     "discoverable_by_email":"1",
-     "current_step":"1",
-     "email":"muhammadshakib@gmail.com"}' --http2
+curl --http2 -L -X POST 'https://jf.x.com/onboarding/actions' \
+-H 'User-Agent: TwitterAndroid/12.7.1-release.0 (312071000-r-0) Z35/11 (Symphony;Z35;Symphony;Z35;0;;1;2015)' \
+-H 'Accept: application/json' \
+-H 'Accept-Encoding: gzip' \
+-H 'x-attest-signature: NWM3ZTljYzQtZWI5YS00MWIyLTk1MmQtMjY0ZjcxMzBiNmE0LTI2ODUyMTY2NjYyMTUxNTU=.MEUCIH2VfM4J87uP3BlmooL18i5CtoOsk0Pj5MHnfgsGvnttAiEA1qN19n7eoUxoTVHaNGpkrG3l/Z4O6WZv2l+ALFFWbAE=' \
+-H 'timezone: ' \
+-H 'x-twitter-client-adid: dcd87a29-d74b-4b76-ae07-2f1a1db11e61' \
+-H 'x-twitter-client-limit-ad-tracking: 0' \
+-H 'x-client-uuid: 5c7e9cc4-eb9a-41b2-952d-264f7130b6a4' \
+-H 'x-twitter-client: TwitterAndroid' \
+-H 'x-twitter-client-version: 12.7.1-release.0' \
+-H 'x-twitter-api-version: 5' \
+-H 'x-twitter-client-language: en-US' \
+-H 'x-twitter-client-deviceid: e610ffdde837355f' \
+-H 'x-twitter-active-user: yes' \
+-H 'x-attest-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcyI6ICJBTkRST0lEIiwKImFjY291bnRJZCI6ICIyNjg1MjE2NjY2MjE1MTU1IiwKInZlcnNpb25OdW1iZXIiOiAiMTIuNy4xIiwKIm9zVmVyc2lvbk51bWJlciI6ICJaMzUvMTEuIiwKIm9zUGxhdGZvcm0iOiAiVHdpdHRlckFuZHJvaWQiLAoiZGV2aWNlTW9kZWwiOiAiWjM1IiwKImNsaWVudElkZW50aWZpZXIiOiAiNWM3ZTljYzQtZWI5YS00MWIyLTk1MmQtMjY0ZjcxMzBiNmE0IiwKImtleUlkIjogIk5XTTNaVGxqWXpRdFpXSTVZUzAwTVdJeUxUazFNbVF0TWpZMFpqY3hNekJpTm1FMExUSTJPRFV5TVRZMk5qWXlNVFV4TlRVPSIsCiJwdWJsaWNLZXkiOiAiTUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFWWJpNVNsd0dnck45WVRJWHg0YnBlS3Y0VXFiU0l4SHc1NVJLVE11R0dKOGdRcG5tbnN1Mk8rOEhrb2tkV3FBRHFPeWI3SHo1ZnNwWXhjaEhrMXhPVEE9PSIsCiJleHBpcmVzQXQiOiAiMTc4NDE1OTcyMzY3MSJ9.QFajFsxTvWzrjdcQWnR5l1Euul_--1Rd0Tpo7VmjfC4' \
+-H 'x-twitter-client-flavor: ' \
+-H 'x-b3-traceid: b2fbe31db2572dda' \
+-H 'os-security-patch-level: 2021-10-05' \
+-H 'x-guest-token: 2077359523279552773' \
+-H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAAFXzAwAAAAAAMHCxpeSDG1gLNLghVe8d74hl6k4%3DRUMF4xAQLsbeBhTSRrCiQpJtxoGWeyHrDb5te2jpGskWDFW82F' \
+-H 'x-jf-client-theme: darker' \
+-H 'x-jf-v: JP-5' \
+-H 'timezone: Asia/Dhaka' \
+-H 'accept-language: en' \
+-H 'content-type: application/json; charset=UTF-8' \
+-H 'Cookie: __cf_bm=OgANjYdB5gHRNVSTcsRBFWB5tAK2.KDVp1zrMcX3BL0-1784116612.209059-1.0.1.1-U7iyKxLg6wVXYGV3C2n7BBth5IIfsiIkAK4DP.2LRdds7.PkuRBRowI6mJDsDbP9trU9lsN1CtnIXrHGqKOudqNJiq17pIUrC4UuNr7V83Tj3frXWbDTxqnsYR5XmUVW' \
+-d '{"flowPath":"regular","signup_token":"","current_step":"1","preludeDispatchId":"","castle_token":"cng4MRZHIio-IxMKBAYWNBoLABpFJyA_AToYFDw3BBRBRSI5dsSlpzbmeVZVLlJwavWeTtGtk60aziezr99049a-DNjAvQWkqrYSnfqAYpWIUtgzwf50ha_tbfdH0zCz9eBJ56XQiuyt4k3UqJIS1N28FdTD0wiyzbcAsfdfbIGd_Uuenv4O1cO2HcPK_Uwl_0h_d66bJJ-e4VKHgeJRwsq_GdHctlKAj_tPgZ3jS4Gf40yZj_s_0dynENWP4FKBgeJNi4-SEtTdvBXUj-JNi4-ABd3fuxPe1vMmg5r6yq9k0qi67qAV0YCXFNHEsqC1yr1R5fw_f-qc5oi1yr1R5fwscnes2aK0quJFiJfmcLWZ50yAn8d5gZ7jT4Cz102CnORfsYLxST8573r8xv4V38GWfuWkihi5zqERhpv-CojOv3mCgeJSgN6q_iSMsBPdgbQT38i_GZ7OvRjCwLoYnt-yH9vOtBnZwaAI0cO_GcIzkx2En7cdiJ-ySYnL4kuAzLIdiZrjH9ae5h-Bl7BIhZu3SIfO4EXSneVFiJa3RNKZ50zVzLdLhJqxHYeesRqFy7DfsALNyR_dbnZyZQZ8bKu-Gd_YMpZFri5OkAPTfL0D03y5fNN8vp_TfL_r03y_xdM-nMLTPpCI0z6ZVdM-icvTPvgH00QsL9NEOlfTRBXw00QbItNEDrTTUXZ801EXxtNRDeTTUVra01Knl9N9nA7TfCZR032IStN97fnTfTXk03zSOtN8lDDTfN1x03zDYtN8NKTTfa6M03wi09N9lFbTffsy033F19N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8q8zTfB5V033rxtN0mBbTPcuA032XkdN9f5PTew1V03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCvLIg","discoverable_by_phone":"","redirect_variant":"","name":"","first_name":"","last_name":"","apps":"","discoverable_by_email":"1","email":"muhammadshakib@gmail.com"}'
