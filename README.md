@@ -9,11 +9,11 @@
 ---
 
 ## Proof of Concept
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/304a4b9b-c5ea-44c9-95e0-a2f848af94ed" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/ccee9b34-887c-4c3e-97c9-e25c55a209a6" />
 
 
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/2bd3bd45-8a1f-4b57-84c7-bc34812353ea)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/48401779-158e-4209-bbb1-e142cbedd117)
 
 ---
 
@@ -21,7 +21,7 @@
 
 | App | Package | Version | Architecture | Bypass Method | Status |
 |-----|---------|---------|--------------|---------------|--------|
-| X (Twitter) | `com.twitter.android` | **12.7.1-release.0** | `arm64-v8a` | Patched APK | ✅ Bypassed |
+| X (Twitter) | `com.twitter.android` | **12.12.0-release.0** | `arm64-v8a` | Patched APK | ✅ Bypassed |
 
 > For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
