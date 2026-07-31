@@ -1,28 +1,27 @@
 curl --http2 -L -X POST 'https://jf.x.com/onboarding/actions' \
--H 'User-Agent: TwitterAndroid/12.7.1-release.0 (312071000-r-0) Z35/11 (Symphony;Z35;Symphony;Z35;0;;1;2015)' \
+-H 'User-Agent: TwitterAndroid/12.12.0-release.0 (312120000-r-0) Z35/11 (Symphony;Z35;Symphony;Z35;0;;1;2015)' \
 -H 'Accept: application/json' \
 -H 'Accept-Encoding: gzip' \
--H 'x-attest-signature: NWM3ZTljYzQtZWI5YS00MWIyLTk1MmQtMjY0ZjcxMzBiNmE0LTI2ODUyMTY2NjYyMTUxNTU=.MEUCIH2VfM4J87uP3BlmooL18i5CtoOsk0Pj5MHnfgsGvnttAiEA1qN19n7eoUxoTVHaNGpkrG3l/Z4O6WZv2l+ALFFWbAE=' \
+-H 'x-attest-signature: MDc5NDQ4ZDEtNTg2My00YjIyLTg5ZjgtZjY3MjhjMWVkMTk4LTU2Mzc3NDk1ODc0ODEwMDE=.MEUCIFywQzadgoujoXi7cJv1I0UtJH9bYi4rPUUPRiDvZ/aTAiEA39dejxET9fIgCz94zyQ8QnhsUgopakHoudeAZXA5vGg=' \
 -H 'timezone: ' \
 -H 'x-twitter-client-adid: dcd87a29-d74b-4b76-ae07-2f1a1db11e61' \
 -H 'x-twitter-client-limit-ad-tracking: 0' \
--H 'x-client-uuid: 5c7e9cc4-eb9a-41b2-952d-264f7130b6a4' \
+-H 'x-client-uuid: 079448d1-5863-4b22-89f8-f6728c1ed198' \
 -H 'x-twitter-client: TwitterAndroid' \
--H 'x-twitter-client-version: 12.7.1-release.0' \
+-H 'x-twitter-client-version: 12.12.0-release.0' \
 -H 'x-twitter-api-version: 5' \
 -H 'x-twitter-client-language: en-US' \
 -H 'x-twitter-client-deviceid: e610ffdde837355f' \
 -H 'x-twitter-active-user: yes' \
--H 'x-attest-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcyI6ICJBTkRST0lEIiwKImFjY291bnRJZCI6ICIyNjg1MjE2NjY2MjE1MTU1IiwKInZlcnNpb25OdW1iZXIiOiAiMTIuNy4xIiwKIm9zVmVyc2lvbk51bWJlciI6ICJaMzUvMTEuIiwKIm9zUGxhdGZvcm0iOiAiVHdpdHRlckFuZHJvaWQiLAoiZGV2aWNlTW9kZWwiOiAiWjM1IiwKImNsaWVudElkZW50aWZpZXIiOiAiNWM3ZTljYzQtZWI5YS00MWIyLTk1MmQtMjY0ZjcxMzBiNmE0IiwKImtleUlkIjogIk5XTTNaVGxqWXpRdFpXSTVZUzAwTVdJeUxUazFNbVF0TWpZMFpqY3hNekJpTm1FMExUSTJPRFV5TVRZMk5qWXlNVFV4TlRVPSIsCiJwdWJsaWNLZXkiOiAiTUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFWWJpNVNsd0dnck45WVRJWHg0YnBlS3Y0VXFiU0l4SHc1NVJLVE11R0dKOGdRcG5tbnN1Mk8rOEhrb2tkV3FBRHFPeWI3SHo1ZnNwWXhjaEhrMXhPVEE9PSIsCiJleHBpcmVzQXQiOiAiMTc4NDE1OTcyMzY3MSJ9.QFajFsxTvWzrjdcQWnR5l1Euul_--1Rd0Tpo7VmjfC4' \
+-H 'x-attest-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJvcyI6ICJBTkRST0lEIiwKImFjY291bnRJZCI6ICI1NjM3NzQ5NTg3NDgxMDAxIiwKInZlcnNpb25OdW1iZXIiOiAiMTIuMTIuMCIsCiJvc1ZlcnNpb25OdW1iZXIiOiAiWjM1LzExLiIsCiJvc1BsYXRmb3JtIjogIlR3aXR0ZXJBbmRyb2lkIiwKImRldmljZU1vZGVsIjogIlozNSIsCiJjbGllbnRJZGVudGlmaWVyIjogIjA3OTQ0OGQxLTU4NjMtNGIyMi04OWY4LWY2NzI4YzFlZDE5OCIsCiJrZXlJZCI6ICJNRGM1TkRRNFpERXROVGcyTXkwMFlqSXlMVGc1WmpndFpqWTNNamhqTVdWa01UazRMVFUyTXpjM05EazFPRGMwT0RFd01ERT0iLAoicHVibGljS2V5IjogIk1Ga3dFd1lIS29aSXpqMENBUVlJS29aSXpqMERBUWNEUWdBRWhidUhQRmVGWi92bEpBWlorcmZVME42YkFDOWRNb291SlNNWk1LUkdFN05Vc0NoTmFJeW43R0tUTk9kMTRYK3lhcTdZVkkyWDgyOUpjWU9mMVNSWmJ3PT0iLAoiZXhwaXJlc0F0IjogIjE3ODU1NTU3MzExMjcifQ.VPNDZwgf-WkY5ObRlUYaEiD_rsZaJ1k-3lLGSeS14so' \
 -H 'x-twitter-client-flavor: ' \
--H 'x-b3-traceid: b2fbe31db2572dda' \
+-H 'x-b3-traceid: 10e92591b632b5b8' \
 -H 'os-security-patch-level: 2021-10-05' \
--H 'x-guest-token: 2077359523279552773' \
+-H 'x-guest-token: 2083216479714164743' \
 -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAAFXzAwAAAAAAMHCxpeSDG1gLNLghVe8d74hl6k4%3DRUMF4xAQLsbeBhTSRrCiQpJtxoGWeyHrDb5te2jpGskWDFW82F' \
 -H 'x-jf-client-theme: darker' \
 -H 'x-jf-v: JP-5' \
 -H 'timezone: Asia/Dhaka' \
 -H 'accept-language: en' \
 -H 'content-type: application/json; charset=UTF-8' \
--H 'Cookie: __cf_bm=OgANjYdB5gHRNVSTcsRBFWB5tAK2.KDVp1zrMcX3BL0-1784116612.209059-1.0.1.1-U7iyKxLg6wVXYGV3C2n7BBth5IIfsiIkAK4DP.2LRdds7.PkuRBRowI6mJDsDbP9trU9lsN1CtnIXrHGqKOudqNJiq17pIUrC4UuNr7V83Tj3frXWbDTxqnsYR5XmUVW' \
--d '{"flowPath":"regular","signup_token":"","current_step":"1","preludeDispatchId":"","castle_token":"cng4MRZHIio-IxMKBAYWNBoLABpFJyA_AToYFDw3BBRBRSI5dsSlpzbmeVZVLlJwavWeTtGtk60aziezr99049a-DNjAvQWkqrYSnfqAYpWIUtgzwf50ha_tbfdH0zCz9eBJ56XQiuyt4k3UqJIS1N28FdTD0wiyzbcAsfdfbIGd_Uuenv4O1cO2HcPK_Uwl_0h_d66bJJ-e4VKHgeJRwsq_GdHctlKAj_tPgZ3jS4Gf40yZj_s_0dynENWP4FKBgeJNi4-SEtTdvBXUj-JNi4-ABd3fuxPe1vMmg5r6yq9k0qi67qAV0YCXFNHEsqC1yr1R5fw_f-qc5oi1yr1R5fwscnes2aK0quJFiJfmcLWZ50yAn8d5gZ7jT4Cz102CnORfsYLxST8573r8xv4V38GWfuWkihi5zqERhpv-CojOv3mCgeJSgN6q_iSMsBPdgbQT38i_GZ7OvRjCwLoYnt-yH9vOtBnZwaAI0cO_GcIzkx2En7cdiJ-ySYnL4kuAzLIdiZrjH9ae5h-Bl7BIhZu3SIfO4EXSneVFiJa3RNKZ50zVzLdLhJqxHYeesRqFy7DfsALNyR_dbnZyZQZ8bKu-Gd_YMpZFri5OkAPTfL0D03y5fNN8vp_TfL_r03y_xdM-nMLTPpCI0z6ZVdM-icvTPvgH00QsL9NEOlfTRBXw00QbItNEDrTTUXZ801EXxtNRDeTTUVra01Knl9N9nA7TfCZR032IStN97fnTfTXk03zSOtN8lDDTfN1x03zDYtN8NKTTfa6M03wi09N9lFbTffsy033F19N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8q8zTfB5V033rxtN0mBbTPcuA032XkdN9f5PTew1V03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCv03ywr9N8sK_TfLCvLIg","discoverable_by_phone":"","redirect_variant":"","name":"","first_name":"","last_name":"","apps":"","discoverable_by_email":"1","email":"muhammadshakib@gmail.com"}'
+-H 'Cookie: __cf_bm=3mfKAVKNZUUGPVYhtGodtNPBKtHjo00hsIYEXCOF6Ew-1785512525.778729-1.0.1.1-Pqkn50TU35WOMFXvCvhbbC2DkJzidxrlTroKnxRPcEieYShPHu1m0vzdjcPxfETIPkmWKzyaY5JLvYuAMwgA1ki3YQ23bsJLIUyhFXjBCRGs0PocnrLbBLFG7R5iMw.A' \
